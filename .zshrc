@@ -10,6 +10,7 @@ alias rm='rm -I'
 alias mv='mv -iv'
 alias ln='ln -sriv'
 alias xclip='xclip -selection c'
+alias clpkg='sudo pacman -Qtdq |sudo  pacman -Rns -'
 command -v vim > /dev/null && alias vi='vim'
 
 ### Colorize commands
