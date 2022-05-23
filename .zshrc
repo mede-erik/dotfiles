@@ -11,6 +11,8 @@ alias mv='mv -iv'
 alias ln='ln -sriv'
 alias xclip='xclip -selection c'
 alias clpkg='sudo pacman -Qtdq |sudo  pacman -Rns -'
+alias fanboost='sudo isw -b on'
+alias fanoff='sudo isw -b off'
 command -v vim > /dev/null && alias vi='vim'
 
 ### Colorize commands
