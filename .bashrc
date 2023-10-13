@@ -12,6 +12,7 @@ alias ln='ln -sriv'
 alias xclip='xclip -selection c'
 command -v vim > /dev/null && alias vi='vim'
 
+
 ### Colorize commands
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
