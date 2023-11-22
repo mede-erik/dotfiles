@@ -12,6 +12,7 @@ alias ln='ln -sriv'
 alias xclip='xclip -selection c'
 command -v vim > /dev/null && alias vi='vim'
 
+alias yt_download='yt-dlp -o "[%(upload_date)s] %(title)s [%(uploader)s].%(ext)s" -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]''
 
 ### Colorize commands
 alias ls='ls --color=auto'
