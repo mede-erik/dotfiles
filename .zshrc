@@ -13,6 +13,7 @@ alias xclip='xclip -selection c'
 alias clpkg='sudo pacman -Qtdq |sudo  pacman -Rns -'
 alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg  '
 alias yt_download='yt-dlp -o "[%(upload_date)s] %(title)s [%(uploader)s].%(ext)s" -f "bestvideo[height<=1080]+bestaudio/best[height<=1080]"'
+alias rocm-smi='/opt/rocm/bin/rocm-smi'
 command -v vim > /dev/null && alias vi='vim'
 
 # only for msi laptop
